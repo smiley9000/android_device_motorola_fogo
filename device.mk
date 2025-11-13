@@ -88,3 +88,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/fogo/fogo-vendor.mk)
+
+# Inherit the sign keys
+$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
